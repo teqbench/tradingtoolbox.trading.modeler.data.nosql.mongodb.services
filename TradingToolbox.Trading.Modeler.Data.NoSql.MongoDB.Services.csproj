@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <PackOnBuild>true</PackOnBuild>
+    <ReleaseVersion>5.0.0</ReleaseVersion>
+    <Description>Service implementation for MongoDB repositories for Trading Position Modeler.</Description>
+    <PackageOutputPath>../NuGet-Packages</PackageOutputPath>
+    <PackageVersion>5.0.0</PackageVersion>
+    <RootNamespace>TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Services</RootNamespace>
+    <AssemblyName>TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Services</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0</OutputPath>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="TradingToolbox.System.Data.NoSql.MongoDB.Repository" Version="5.0.0" />
+    <PackageReference Include="TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models" Version="5.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PositionModeling\" />
+  </ItemGroup>
+</Project>
