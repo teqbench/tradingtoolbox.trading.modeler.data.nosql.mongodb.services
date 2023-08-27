@@ -3,10 +3,10 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <PackOnBuild>true</PackOnBuild>
-    <ReleaseVersion>5.0.0</ReleaseVersion>
+    <ReleaseVersion>5.0.1</ReleaseVersion>
     <Description>Service implementation for MongoDB repositories for Trading Position Modeler.</Description>
-    <PackageOutputPath>../NuGet-Packages</PackageOutputPath>
-    <PackageVersion>5.0.0</PackageVersion>
+    <PackageOutputPath>../../NuGet-Packages</PackageOutputPath>
+    <PackageVersion>5.0.1</PackageVersion>
     <RootNamespace>TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Services</RootNamespace>
     <AssemblyName>TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Services</AssemblyName>
   </PropertyGroup>
@@ -19,8 +19,8 @@
     <OutputPath>bin\Release\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="TradingToolbox.System.Data.NoSql.MongoDB.Repository" Version="5.0.0" />
-    <PackageReference Include="TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models" Version="5.0.0" />
+    <PackageReference Include="TradingToolbox.System.Data.NoSql.MongoDB.Repository" Version="5.0.1" />
+    <PackageReference Include="TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models" Version="5.0.1" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="README.md" />
