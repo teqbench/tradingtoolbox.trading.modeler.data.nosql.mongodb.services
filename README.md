@@ -1,7 +1,7 @@
-# Trading Modeler MongoDB Services API
+# Trading Modeler MongoDB Repository Services API
 
 ## Overview
-Service implementation for MongoDB repositories for Trading Position Modeler.
+MongoDB repository service implementation for Trading Position Modeler.
 
 # Contents
 - [Developer Environment Setup](#Developer+Environment+Setup)
