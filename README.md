@@ -1,7 +1,7 @@
 # Trading Modeler MongoDB Services API
 
 ## Overview
-MongoDB data service implementation for Trading Modeler. Will be added to service API app as a singleton upon startup.
+Service implementation for MongoDB repositories for Trading Position Modeler.
 
 # Contents
 - [Developer Environment Setup](#Developer+Environment+Setup)
@@ -22,13 +22,13 @@ MongoDB data service implementation for Trading Modeler. Will be added to servic
 > [!NOTE]
 > Referenced/restored via the project file
 
-- MongoDB.Bson, 2.21.0
-- TradingToolbox.System.Data.NoSql.MongoDB.Models, 5.1.0
+- TradingToolbox.System.Data.NoSql.MongoDB.Repository, 5.1.0
+- TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models, 5.1.0
 
 # Usage
 ## Add NuGet Package To Project
 ```
-dotnet add package TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models
+dotnet add package TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Services
 ```
 
 ## Update Source Code
