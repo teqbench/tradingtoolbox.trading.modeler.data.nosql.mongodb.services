@@ -1,9 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<Authors>Trading Toolbox</Authors>
-		<Company>Trading Toolbox</Company>
+		<Authors>TeqBench</Authors>
+		<Company>TeqBench</Company>
 		<Product>Trading Toolbox</Product>
-		<Copyright>Copyright 2023 © Trading Toolbox. All rights reserved.</Copyright>
+		<Copyright>Copyright 2023 © TeqBench. All rights reserved.</Copyright>
+		<ReleaseVersion></ReleaseVersion>
     </PropertyGroup>
 	<PropertyGroup>
 		<Major Condition="'$(major)' == ''">0</Major>
@@ -59,8 +60,8 @@
     <OutputPath>bin\Release\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="TradingToolbox.System.Data.NoSql.MongoDB.Repository" Version="5.1.0" />
-    <PackageReference Include="TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models" Version="5.1.0" />
+    <PackageReference Include="TeqBench.System.Data.NoSql.MongoDB.Repository" Version="1.0.0" />
+    <PackageReference Include="TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models" Version="1.1.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="README.md" />

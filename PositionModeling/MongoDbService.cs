@@ -1,4 +1,4 @@
-﻿using TradingToolbox.System.Data.NoSql.MongoDB.Repository.Config;
+﻿using TeqBench.System.Data.NoSql.MongoDB.Repository.Config;
 
 namespace TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Services.PositionModeling
 {
