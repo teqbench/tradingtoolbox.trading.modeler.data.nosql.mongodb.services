@@ -1,5 +1,5 @@
 ﻿using TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models;
-using TradingToolbox.System.Data.NoSql.MongoDB.Repository;
+using TeqBench.System.Data.NoSql.MongoDB.Repository;
 
 namespace TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Services.PositionModeling
 {
