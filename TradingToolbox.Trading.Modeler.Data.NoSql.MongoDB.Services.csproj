@@ -29,7 +29,7 @@
 		<VersionSuffix Condition="'$(Configuration)' == 'Debug'">dev</VersionSuffix>
 	</PropertyGroup>
 	<PropertyGroup>
-		<TargetFramework>net7.0</TargetFramework>
+		<TargetFramework>net8.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<IsPackable>true</IsPackable>
@@ -53,15 +53,16 @@
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>bin\Debug\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0</OutputPath>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <OutputPath>bin\Release\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0\net5.0</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="TeqBench.System.Data.NoSql.MongoDB.Repository" Version="1.0.0" />
-    <PackageReference Include="TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models" Version="1.1.0" />
+    <PackageReference Include="TeqBench.System.Data.NoSql.MongoDB.Repository" Version="2.0.1" />
+    <PackageReference Include="TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models" Version="2.0.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="README.md" />
