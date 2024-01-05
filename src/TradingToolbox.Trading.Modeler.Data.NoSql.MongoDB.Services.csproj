@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<!--
+	Import common project file settings via teqbench.dev submodule.
+	-->
+	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Config.props" />
+	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Tooling.props" />
+	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Packaging.props" />
+	<Import Project="../.submodules/teqbench.dev/TeqBench.Dev.Project.Versioning.props" />
+	<PropertyGroup>
+		<Description>Service implementation for MongoDB repositories for Trading Position Modeler.</Description>
+		<RootNamespace>TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Services</RootNamespace>
+		<AssemblyName>TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Services</AssemblyName>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="TeqBench.System.Data.NoSql.MongoDB.Repository" Version="2.0.1" />
+		<PackageReference Include="TradingToolbox.Trading.Modeler.Data.NoSql.MongoDB.Models" Version="2.0.0" />
+	</ItemGroup>
+</Project>
