@@ -2,7 +2,7 @@
 
 ![Build Status Badge](.badges/build-status.svg) ![Build Number Badge](.badges/build-number.svg) ![Coverage](.badges/code-coverage.svg)
 
-### Overview
+## Overview
 
 MongoDB repository service implementation for Trading Position Modeler.
 
