@@ -23,7 +23,7 @@ MongoDB repository service implementation for Trading Position Modeler.
 - [Solutions](https://github.com/teqbench/teqbench.docs/wiki/.NET-Solutions)
 - [Projects](https://github.com/teqbench/teqbench.docs/wiki/.NET-Projects)
 - [Building](https://github.com/teqbench/teqbench.docs/wiki/.NET-Build-Process)
-- [Packing & Deploying NuGet Package](#)
+- [Package & Deployment](https://github.com/teqbench/teqbench.docs/wiki/.NET-Package-Deploy)
 - [Versioning](https://github.com/teqbench/teqbench.docs/wiki/.NET-Versioning-Standards)
 
 ## Usage
