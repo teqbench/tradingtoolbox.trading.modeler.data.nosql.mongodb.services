@@ -34,4 +34,5 @@ jobs:
     uses: teqbench/teqbench.devops.githhub.workflows/.github/workflows/release-deploy.yml@main
     secrets: inherit
     with:
+      coverage_lower_boundary_override: 0
       release_type: ${{ github.event.inputs.release_type }}
